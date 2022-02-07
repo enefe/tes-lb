@@ -14,3 +14,4 @@
 3. CSS Язык таблиц стилей
 4. Figma
 5. Git Bush
+6. Webpack
