@@ -1,0 +1,16 @@
+.video {
+    min-width: 290px;
+}
+
+@media(min-width: 720px) {
+    .video {
+        -ms-display: grid;
+        display: grid;
+        -ms-grid-template-areas:
+            "title title"
+            "image containers";
+        grid-template-areas:
+            "title title"
+            "image containers";
+    }
+}

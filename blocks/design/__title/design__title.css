@@ -1,0 +1,22 @@
+.design__title {
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 31px;
+    margin: 20px 15px 30px;
+}
+
+@media (min-width: 720px) {
+    .design__title {
+        -ms-grid-area: title;
+        grid-area: title;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 40px 25px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .design__title {
+        margin-bottom: 54px;
+    }
+}

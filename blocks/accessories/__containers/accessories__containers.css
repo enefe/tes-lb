@@ -1,0 +1,18 @@
+.accessories__containers {
+    display: flex;
+    margin: 0 15px;
+}
+
+@media (min-width: 720px) {
+    .accessories__containers {
+        margin: 0 25px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .accessories__containers {
+        /* grid-area: containers; */
+        margin: 0;
+        min-width: 464px;
+    }
+}

@@ -1,0 +1,18 @@
+.design__description_type_screen {
+    color: white;
+    width: 260px;
+    margin: 19px auto 25px;
+}
+
+@media (min-width: 720px) {
+    .design__description_type_screen {
+        width: 295px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .design__description_type_screen {
+        width: 193px;
+        margin-bottom: 45px;
+    }
+}

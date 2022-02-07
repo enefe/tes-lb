@@ -1,0 +1,17 @@
+.design__container_type_screen {
+    background-color: #171717;
+    border-radius: 5px;
+}
+
+@media (min-width: 720px) {
+    .design__container_type_screen {
+        margin-left: 25px;
+        align-self: start;
+    }
+}
+
+@media (min-width: 1000px) {
+    .design__container_type_screen {
+        margin-top: -0px;
+    }
+}

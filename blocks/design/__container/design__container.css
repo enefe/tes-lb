@@ -1,0 +1,19 @@
+.design__container {
+    width: 290px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 720px) {
+    .design__container {
+        width: 325px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .design__container {
+        width: 222px;
+    }
+}

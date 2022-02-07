@@ -1,0 +1,14 @@
+@media (min-width: 720px) {
+    .design__container_type_corpus {
+        grid-area: corpus;
+        margin-right: 25px;
+    }
+}
+
+@media (min-width: 720px) {
+    .design__container_type_corpus {
+        -ms-grid-area: corpus;
+        grid-area: corpus;
+        margin-top: 0px;
+    }
+}

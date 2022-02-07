@@ -1,0 +1,25 @@
+.accessories__description {
+    min-width: 292px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    border-top: rgba(0, 0, 0, .1) solid 1px;
+    padding-top: 19px;
+    margin: 25px 0 40px;
+}
+
+@media (min-width: 720px) {
+    .accessories__description {
+        margin-bottom: 50px; 
+    }
+}
+
+@media (min-width: 1000px) {
+    .accessories__description {
+        min-width: 222px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+}
+

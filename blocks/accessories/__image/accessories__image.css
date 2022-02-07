@@ -1,0 +1,14 @@
+@media (min-width: 720px) {
+    .accessories__image {
+        width: 325px;
+        height: 168px;   
+        margin: 0 auto;    
+    }
+}
+
+@media (min-width: 1000px) {
+    .accessories__image {
+        width: 222px;
+        height: 115px;
+    }
+}

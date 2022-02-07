@@ -1,0 +1,27 @@
+.video__title {
+    min-width: 290px;
+    border-top: 1px rgba(0, 0, 0, .25) solid;
+    margin: 50px 15px 30px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 31px;
+    align-self: flex-start;
+}
+
+@media (min-width: 720px) {
+    .video__title {
+        -ms-grid-area: title;
+        grid-area: title;
+        margin: 0 25px 50px;
+        padding-top: 40px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video__title {
+        margin-top: 60px;
+    }
+}

@@ -1,0 +1,24 @@
+.accessories__about {
+    min-width: 142px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0;
+    border-top: 1px rgba(0, 0, 0, .1) solid;
+    padding-top: 19px;
+}
+
+@media (min-width: 720px) {
+    .accessories__about {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .accessories__about {
+        width: 222px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

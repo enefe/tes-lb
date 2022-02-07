@@ -1,0 +1,23 @@
+.services__description {
+    min-width: 205px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0;
+}
+
+@media (min-width: 720px) {
+    .services__description {
+        font-size: 14px;
+        line-height: 21px;
+        width: 210px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .services__description {
+        font-size: 16px;
+        line-height: 24px;
+        width: 303px;
+    }
+}

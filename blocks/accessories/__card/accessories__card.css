@@ -1,0 +1,21 @@
+.accessories__card {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 720px) {
+    .accessories__card {
+        min-width: 325px;
+        margin-right: 20px;
+    }
+
+    .accessories__card:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1000px) {
+    .accessories__card {
+        min-width: 222px;
+    }
+}

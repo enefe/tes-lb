@@ -1,0 +1,9 @@
+.services__container_reverse {
+    flex-direction: row-reverse;
+}
+
+@media (min-width: 720px) {
+    .services__container_reverse {
+        flex-direction: column;
+    }
+}

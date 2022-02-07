@@ -1,0 +1,19 @@
+.header__logos {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+
+@media (min-width: 720px) {
+    .header__logos {
+        position: static;
+        width: 203px;
+        border-bottom: 3px solid #D70E2A;
+    }
+}
+
+@media (min-width: 1000px) {
+    .header__logos {
+        width: 255px;
+    }
+}

@@ -1,0 +1,15 @@
+.design__line_type_screen {
+    width: 260px;
+}
+
+@media (min-width: 720px) {
+    .design__line_type_screen {
+        width: 295px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .design__line_type_screen {
+        width: 192px;
+    }
+}

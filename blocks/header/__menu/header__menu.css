@@ -1,0 +1,15 @@
+.header__menu {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    width: 32px;
+    height: 30px;
+}
+
+@media (min-width: 720px) {
+    .header__menu {
+        position: static;
+        margin-top: 14px;
+        margin-right: 25px;
+    }
+}

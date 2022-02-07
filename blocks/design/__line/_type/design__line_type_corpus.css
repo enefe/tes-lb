@@ -1,0 +1,15 @@
+.design__line_type_corpus {
+    width: 290px;
+}
+
+@media (min-width: 720px) {
+    .design__line_type_corpus {
+        width: 325px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .design__line_type_corpus {
+        width: 223px;
+    }
+}

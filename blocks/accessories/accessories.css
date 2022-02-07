@@ -1,0 +1,13 @@
+.accessories {
+    min-width: 290px;
+}
+
+/* @media (min-width: 1000px) {
+    .accessories {
+        display: grid;
+        grid-template-areas: 
+            "title title"
+            "cards containers";
+            column-gap: 20px;
+    }
+} */

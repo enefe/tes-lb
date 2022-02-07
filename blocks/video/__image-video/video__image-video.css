@@ -1,0 +1,23 @@
+.video__image-video {
+    /* vertical-align: bottom; */
+    min-width: 320px;
+    min-height: 170px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 720px) {
+    .video__image-video {
+        -ms-grid-area: image;
+        grid-area: image;
+        height: 173px;
+        margin: 0 0 0 25px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video__image-video {
+        width: 465px;
+        height: 248px;
+    }
+}

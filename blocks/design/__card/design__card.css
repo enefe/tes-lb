@@ -1,0 +1,27 @@
+.design__card {
+    min-width: 142px;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design__card:last-child {
+    margin: 0;
+}
+
+@media (min-width: 720px) {
+    .design__card {
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+    .design__card {
+        /* margin-right: 35px; */
+    }
+
+    .design__card:last-child {
+        /* margin-left: 20px; */
+    }
+}

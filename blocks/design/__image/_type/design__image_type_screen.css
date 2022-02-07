@@ -1,0 +1,17 @@
+.design__image_type_screen {
+    margin-top: 20px;
+}
+
+@media (min-width: 720px) {
+    .design__image_type_screen {
+        width: 265px;
+        height: 183px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .design__image_type_screen {
+        width: 162px;
+        height: 112px;
+    }
+}
